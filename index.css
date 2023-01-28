@@ -6,6 +6,7 @@ body {
 
 a{
     text-decoration: none;
+    color: white;
 }
 
 p{
@@ -124,16 +125,40 @@ p{
 
 /* -------------------------------------------------------------------------------------------- */
 
-.lpic{
-    background-image: url("img//litem_pic");
+.lpic1{
+    background-image: url("img//lpic1.png");
+    background-size: 120%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.lpic2{
+    background-image: url("img//lpic2.png");
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.lpic3{
+    background-color: black !important;
+    background-image: url("img//lpic3.jpg");
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cpic1{
+    background-image: url("img//cpic1.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
 }
 
-.cpic{
-    background-image: url("img//citem_pic");
-    background-size: 100%;
+.cpic2{
+    background-image: url("img//cpic2.jpg");
+    background-color: black !important;
+    background-size: 90%;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 #avt{
@@ -142,8 +167,9 @@ p{
     height: 12em;
     border-radius: 50%;
     background-color: rgb(255, 255, 255);
-    background-image: url("bg_link");
+    background-image: url("img//avt.jpg");
     background-size: 100%;
+    background-position: bottom;
     margin: auto;
     background-repeat: no-repeat;
 }

@@ -1,6 +1,10 @@
-function func() {
-    navigator.clipboard.writeText("text");
-    alert("You have copied my  !");
+function func1() {
+    navigator.clipboard.writeText("0339663627");
+    alert("Copied!");
 }
 
-// text
+function func2() {
+    navigator.clipboard.writeText("7037369154");
+    alert("Copied!");
+}
+
